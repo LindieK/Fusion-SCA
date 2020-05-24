@@ -94,6 +94,12 @@ header {
       width: 33%;
       padding: 1.5em;
       margin: 0 0.5em; }
+      #testimonials .cards .card .avatar img {
+        vertical-align: middle;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        object-fit: cover; }
       #testimonials .cards .card span {
         font-weight: 600;
         color: #242E52; }
@@ -101,11 +107,13 @@ header {
 #cta {
   display: flex;
   justify-content: space-between;
-  padding: 4em; }
+  padding: 4em;
+  background-color: #F3613C; }
   #cta #cta-heading {
     width: 25em; }
     #cta #cta-heading h1 {
-      font-size: 2em; }
+      font-size: 2em;
+      color: white; }
   #cta .link {
     display: flex;
     height: fit-content;

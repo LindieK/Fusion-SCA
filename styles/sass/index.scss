@@ -126,6 +126,14 @@ header{
             padding: 1.5em;
             margin: 0 0.5em;
 
+            .avatar img{
+                vertical-align: middle;
+                border-radius: 50%;
+                width: 100px;
+                height: 100px;
+                object-fit: cover;
+            }
+
             span{
                 font-weight: 600;
                 color: $header-color;
@@ -137,12 +145,14 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 4em;
+    background-color: $brand-color;
 
     #cta-heading{
         width:25em;
 
         h1{
             font-size: 2em;
+            color: white;
         }
     }
 
