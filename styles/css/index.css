@@ -22,6 +22,13 @@ p {
   color: white;
   background-color: orangered; }
 
+.blob {
+  position: absolute;
+  top: 0;
+  right: -1px;
+  z-index: -1;
+  width: 50vmax; }
+
 nav {
   display: flex;
   justify-content: space-evenly;
@@ -38,7 +45,7 @@ nav {
 header {
   display: flex;
   justify-content: space-evenly;
-  height: 50vh; }
+  height: 80vh; }
   header div {
     width: 35vw; }
   header #header-text {
@@ -48,7 +55,7 @@ header {
     header #header-text #action {
       margin-top: 4em; }
   header img {
-    width: inherit; }
+    width: 30vw; }
 
 #about {
   display: flex;
@@ -61,7 +68,8 @@ header {
   #about .numbered {
     width: 35vw; }
     #about .numbered .number {
-      display: flex; }
+      display: flex;
+      margin-bottom: 10%; }
   #about span {
     background-color: orangered;
     color: white;

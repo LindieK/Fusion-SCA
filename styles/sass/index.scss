@@ -25,6 +25,13 @@ p{
     color: white;
     background-color: orangered;
 }
+.blob{
+    position: absolute;
+    top:0;
+    right:-1px;
+    z-index: -1;
+    width:50vmax;
+}
 nav{
     display: flex;
     justify-content: space-evenly;
@@ -51,7 +58,7 @@ nav{
 header{
     display: flex;
     justify-content: space-evenly;
-    height: 50vh;
+    height: 80vh;
 
     div{
         width: 35vw;
@@ -68,7 +75,7 @@ header{
         }
     }
     img{
-        width: inherit;
+        width: 30vw;
     }
 }
 #about{
@@ -88,6 +95,7 @@ header{
 
         .number{
             display: flex;
+            margin-bottom: 10%;
         }
     }
     span{
